@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        body{
+            background-color: black;
+            background-image: url("https://pbs.twimg.com/media/Ff_rHM9aAAAA_AM?format=jpg&name=large");
+            background-repeat: no-repeat;
+            background-position: top right;
+            background-size: 1000px;
+        
+
+        }
+        .container{
+            background-color: rgb(224, 244, 244);
+            width: 30%;
+            padding: 3%;
+            
+        }
+        .form-field input,button{
+            padding: 10px;
+            width: 80%;
+        }
+        button{ 
+            border: none;
+            font-size: 1.3rem;
+            background-color: rgb(4, 19, 19);
+            color: aliceblue;
+            padding: 10px;
+            width:30%;
+        }
+        @media(max-width:576px){
+            body{
+                background-image: none;
+            }
+        }
+    </style>
+</head>
+<body>
+    
+    <form class="container" action="./index.html">
+    <h1>login</h1>
+    <form action="biography.html">
+        <p class="form-field">
+            <input required="text" placeholder="enter your user name"/>
+        </p>
+        <p class="form-field">
+            <input required="password" placeholder="enter your password "/>
+        </p>
+        
+        <button> login</button>
+        </form>
+    </body>
+    </html>  
+    
